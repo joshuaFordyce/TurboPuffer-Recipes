@@ -6,7 +6,7 @@ import time
 os.environ["TOKENIZERS_PARALLELISM"] = "false"
 model = SentenceTransformer('all-MiniLM-L6-v2')
 tpuf = turbopuffer.Turbopuffer(
-    api_key="tpuf_zPDvexzzKn0cfGh3eUNJbw0YgVHQFFg9",
+    api_key="",
     region="gcp-us-central1"
 )
 
